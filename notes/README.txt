@@ -44,6 +44,9 @@ A:	You need to visit two places. texty_format_new contains the properties enum, 
 Q:	Where do I add new animations?
 A:	Same place as where you add new format properties. texty_format_new has an animations enum, and texty_draw_batch
 	handles animations. Look for the "animate the text" comment
+
+Q:	Can one format affect multiple properties at once? And can I stack multiple formats using multipe <> tags at once?
+A:	Yes and yes!
 	
 Q:	Do I need to destroy custom stylesheets and formats to prevent memory leaks?
 A:	No, you don't. As long as they were added to a texty pseudo object, they will be cleaned up automatically when
