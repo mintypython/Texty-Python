@@ -38,7 +38,7 @@ ds_list_mark_as_map(texty, TEXTY.stylesheet);
 ds_list_add(texty[| TEXTY.format_list], stylesheet[? "default"]);
 texty_format_evaluate(texty);
 texty[| TEXTY.group_begin] = 1;
-texty[| TEXTY.current_character] = 1;
+texty[| TEXTY.current_character] = 0;
 texty[| TEXTY.pause] = 0;
 texty[| TEXTY.escape] = false;
 return texty;
