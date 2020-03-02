@@ -1,0 +1,1 @@
+texty_update(example_text);

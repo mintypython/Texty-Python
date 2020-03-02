@@ -1,0 +1,1 @@
+texty_draw(example_text, x, y);
